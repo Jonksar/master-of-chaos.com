@@ -1,0 +1,62 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Master of Chaos
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Business
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+  - title: Technology & Engineering
+    output: web, pdf
+    folderitems:
+
+    - title: 6.0 Release notes
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
+
+  - title: Management
+    output: web, pdf
+    folderitems:
+
+    - title: About Ruby, Gems, Bundler, etc.
+      url: /mydoc_about_ruby_gems_etc.html
+      output: web, pdf
+
+  - title: People
+    output: web, pdf
+
+    folderitems:
+    - title: Pages
+      url: /mydoc_pages.html
+      output: web, pdf
+
+  - title: Emotions
+    output: web, pdf
+
+    folderitems:
+    - title: Sidebar navigation
+      url: /mydoc_sidebar_navigation.html
+      output: web, pdf
+

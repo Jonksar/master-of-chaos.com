@@ -1,11 +1,18 @@
+.fa-home:before {
+    content: "";
+}
+
 .summary {
     color: #808080;
-    border-left: 5px solid #E50E51;
+    border-left: 5px solid #313D52;
     font-size:16px;
 }
 
+a {
+   color: #284984;
+}
 
-h3 {color: #E50E51; }
+h3 {color: #313D52; }
 h4 {color: #808080; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
@@ -14,15 +21,16 @@ h4 {color: #808080; }
 }
 
 .nav > li.active > a {
-    background-color: #72ac4a;
+    background-color: #55585E;
+    color: white;
 }
 
 .nav > li > a:hover {
-    background-color: #72ac4a;
+    background-color: #55585E;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #72ac4a;
+    background-color: #55585E;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
@@ -35,7 +43,7 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 
 .nav li.thirdlevel > a {
     background-color: #FAFAFA !important;
-    color: #72ac4a;
+    color: #55585E;
     font-weight: bold;
 }
 
@@ -46,7 +54,7 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #72ac4a;
+    background-color: #313D52;
     border-color: #5b893c;
 }
 
@@ -61,7 +69,7 @@ a[data-toggle="tooltip"] {
 
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #72ac4a !important;
+    border-color: #55585E !important;
 }
 
 .btn-primary {
@@ -75,7 +83,7 @@ a[data-toggle="tooltip"] {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-color: #72ac4a;
+    background-color: #55585E;
     border-color: #5b893c;
 }
 
@@ -85,7 +93,7 @@ a[data-toggle="tooltip"] {
 
 body.print h1 {color: #5b893c !important; font-size:28px;}
 body.print h2 {color: #595959 !important; font-size:24px;}
-body.print h3 {color: #E50E51 !important; font-size:14px;}
+body.print h3 {color: #313D52 !important; font-size:14px;}
 body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic;}
 
 .anchorjs-link:hover {
@@ -93,18 +101,16 @@ body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic;}
 }
 
 div.sidebarTitle {
-    color: #E50E51;
 }
 
 li.sidebarTitle {
     margin-top:20px;
     font-weight:normal;
     font-size:130%;
-    color: #ED1951;
     margin-bottom:10px;
     margin-left: 5px;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #E50E51;
+        background-color: #313D52;
 }
